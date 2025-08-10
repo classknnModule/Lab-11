@@ -67,7 +67,7 @@
       //Calculation by yourself like below after data is retireved or via API parameters
       
       //Example of adding additional units requirement, if you choose this, remember to change section 3.1
-      //https://api.openweathermap.org/data/2.5/weather?lat=XXX&lon=-XXX.15&appid={API key}&units=metric
+      //http://api.openweathermap.org/data/2.5/weather?lat=XXX&lon=-XXX.15&appid={API key}&units=metric
       temperature() {
         return this.weatherData
           ? Math.floor(this.weatherData.main.temp - 273)
